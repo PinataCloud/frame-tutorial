@@ -14,8 +14,8 @@ export async function POST(req: NextRequest): Promise<Response> {
     path = '';
   }
   const headers = new Headers();
-  headers.set('Location', 'https://frame-tutorial.vercel.app/');
-  const response = NextResponse.redirect(`https://frame-tutorial.vercel.app/${path}`, {
+  headers.set('Location', `${process.env.NEXT_PUBLIC_BASE_URL}/`);
+  const response = NextResponse.redirect(`${process.env.NEXT_PUBLIC_BASE_URL}/${path}`, {
     headers: headers,
     status: 302,
   });
