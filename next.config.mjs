@@ -10,7 +10,12 @@ const nextConfig = {
       },
       {
         source: '/pinatacloud',
-        destination: 'https://pinata.cloud/blog',
+        destination: 'www.pinata.cloud/blog/how-to-make-a-frame-on-farcaster-using-ipfs',
+        permanent: false
+      },
+      {
+        source: '/video',
+        destination: 'https://youtu.be/wUt5NjXHSO4',
         permanent: false
       }
     ]
