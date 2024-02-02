@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This repo is heavily inspired by and gives credit to [a-frame-in-100-lines by Zizzamia](https://github.com/Zizzamia/a-frame-in-100-lines)
 
 ## Getting Started
 
